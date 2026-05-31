@@ -109,7 +109,7 @@ section h2{
     flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
-    width: 11rem;
+    width: 12rem;
     height: 180px;
     border-radius: 12px;
 }
