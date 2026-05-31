@@ -58,7 +58,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.4rem;
-  justify-items: stretch; /* faz os itens ocuparem toda a largura da coluna */
+  justify-items: stretch; 
   box-sizing: border-box;
   width: 100%;
 }
@@ -103,21 +103,38 @@ section p{
 
 
 .eps{
-    display: flex;
     align-items: center;
     gap: 0.4rem;
     margin-top: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 9rem;
+    height: 180px;
+    border-radius: 12px;
 }
 
-.ctn-eps{
+.eps p{
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: #9e9e9e;
+}
+
+.ctn-img-eps{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 4rem;
-    height: 20px;
-    padding: 0.2rem;
-    border-radius: 12px;
+    gap: 0.4rem;
+    overflow: hidden;
+    background-color: red;
+    width: 9rem;
+    border-radius: 2px;
+}
+
+.ctn-img-eps img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .lnk-btt {
