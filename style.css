@@ -96,8 +96,8 @@ body {
   object-fit: cover;
 }
 
-section p{
-    font-size: 0.8rem;
+section h2{
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -109,7 +109,7 @@ section p{
     flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
-    width: 9rem;
+    width: 11rem;
     height: 180px;
     border-radius: 12px;
 }
