@@ -96,6 +96,30 @@ body {
   object-fit: cover;
 }
 
+section p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.eps{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+
+.ctn-eps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 4rem;
+    height: 20px;
+    padding: 0.2rem;
+    border-radius: 12px;
+}
+
 .lnk-btt {
   display: flex;
   flex-direction: column;
