@@ -12,6 +12,11 @@ body {
   --font: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .top {
   display: flex;
   justify-content: space-between;
