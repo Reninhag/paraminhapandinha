@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  background-color: var(--background);
+  color: var(--font);
+
+  --green: #1ed760;
+  --background: #121212;
+  --font: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrap {
+    /*Ajuste a largura e altura desejadas aqui*/
+    width: 100%;
+    height: 100vh;
+
+    /*isto fará o elemento video e o .container se adaptarem ao .wrap*/
+    position: relative;
+}
+
+.wrap > .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* evita do video passar a altura desejada do .wrap */
+}
+.wrap > .bg-video > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
