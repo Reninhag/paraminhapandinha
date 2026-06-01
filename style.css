@@ -114,6 +114,10 @@ section h2{
     padding-bottom: 0.5rem;
 }
 
+.ctn-eps::-webkit-scrollbar {
+  display: none;
+}
+
 .eps{
     align-items: center;
     gap: 0.4rem;
