@@ -10,6 +10,7 @@ body {
   --green: #1ed760;
   --background: #121212;
   --font: #fff;
+  margin-bottom: 80px;
 }
 
 a {
@@ -192,9 +193,9 @@ section h2{
   height: 80px;
   background-color: var(--green);
   background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(8px);
+  box-shadow: -60px -60px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
   box-sizing: border-box;
   padding: 0 1.6rem;
   gap: 0.5rem;
 }
-8
