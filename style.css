@@ -106,6 +106,13 @@ section h2{
     font-weight: bold;
 }
 
+.ctn-eps{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+}
 
 .eps{
     align-items: center;
