@@ -191,8 +191,10 @@ section h2{
   width: 100%;
   height: 80px;
   background-color: var(--green);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
   box-sizing: border-box;
   padding: 0 1.6rem;
   gap: 0.5rem;
 }
+8

@@ -43,7 +43,7 @@ a {
 
 .container {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /*garante que o conteúdo fique acima do vídeo*/
